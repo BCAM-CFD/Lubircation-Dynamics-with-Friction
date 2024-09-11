@@ -1,0 +1,132 @@
+@article{rosales2024,
+  title={Effects of confinement-induced non-Newtonian lubrication forces on the rheology of a dense suspension},
+  author={Rosales-Romero, Alan and V{\'a}zquez-Quesada, Adolfo and Kumar, Sagaya S Prasanna and L{\'o}pez-Aguilar, J Esteban and Ellero, Marco},
+  journal={Journal of Non-Newtonian Fluid Mechanics},
+  volume={329},
+  pages={105248},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{bian2014,
+  title={A splitting integration scheme for the SPH simulation of concentrated particle suspensions},
+  author={Bian, Xin and Ellero, Marco},
+  journal={Computer Physics Communications},
+  volume={185},
+  number={1},
+  pages={53--62},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@article{vazquez2016a,
+  title={Three-dimensional simulations of dilute and concentrated suspensions using smoothed particle hydrodynamics},
+  author={V{\'a}zquez-Quesada, Adolfo and Bian, Xin and Ellero, Marco},
+  journal={Computational Particle Mechanics},
+  volume={3},
+  number={2},
+  pages={167--178},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{vazquez2016b,
+  title={Rheology and microstructure of non-colloidal suspensions under shear studied with Smoothed Particle Hydrodynamics},
+  author={V{\'a}zquez-Quesada, Adolfo and Ellero, Marco},
+  journal={Journal of Non-Newtonian Fluid Mechanics},
+  volume={233},
+  pages={37--47},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{decyk1996,
+  title={Introduction to object-oriented concepts using Fortran90},
+  author={Decyk, Viktor K and Norton, Charles D and Szymanski, Boleslaw K},
+  journal={},
+  year={1996}
+}
+
+@article{vazquez2016c,
+  title={Analytical solution for the lubrication force between two spheres in a bi-viscous fluid},
+    author={V{\'a}zquez-Quesada, Adolfo and Ellero, Marco},
+      journal={Physics of Fluids},
+        volume={28},
+	  number={7},
+	    pages={073101},
+	      year={2016},
+	        publisher={AIP Publishing}
+		}
+
+@book{allen1989,
+  title={Computer simulation of liquids},
+    author={Allen, Mike P and Tildesley, Dominic J},
+      year={1989},
+        publisher={Oxford university press}
+	}
+
+@article{cox1967,
+  title={The slow motion of a sphere through a viscous fluid towards a plane surface-II Small gap widths, including inertial effects},
+  author={Cox, Raymond G and Brenner, Howard},
+  journal={Chemical Engineering Science},
+  volume={22},
+  number={12},
+  pages={1753--1777},
+  year={1967},
+  publisher={Elsevier}
+}
+
+@article{goldman1967,
+  title={Slow viscous motion of a sphere parallel to a plane wall-I Motion through a quiescent fluid},
+    author={Goldman, Arthur Joseph and Cox, Raymond G and Brenner, Howard},
+      journal={Chemical engineering science},
+        volume={22},
+	  number={4},
+	    pages={637--651},
+	      year={1967},
+	        publisher={Elsevier}
+		}
+		
+@article{irving1950,
+  title={The statistical mechanical theory of transport processes. IV. The equations of hydrodynamics},
+      author={Irving, JH and Kirkwood, John G},
+            journal={The Journal of chemical physics},
+	            volume={18},
+		      number={6},
+	                  pages={817--829},
+year={1950},
+         publisher={AIP Publishing}
+               }
+
+@article{phan2014,
+  title={A spring model for suspended particles in dissipative particle dynamics},
+      author={Phan-Thien, N and Mai-Duy, N and Khoo, BC},
+            journal={Journal of Rheology (1978-present)},
+	            volume={58},
+ number={4},
+ pages={839--867},
+ year={2014},
+ publisher={The Society of Rheology}
+				}
+
+
+@article{bertevas2010,
+  title={Simulation of the rheological properties of suspensions of oblate spheroidal particles in a Newtonian fluid},
+      author={Bertevas, Erwan and Fan, Xijun and Tanner, Roger I},
+  journal={Rheologica acta},
+  volume={49},
+  number={1},
+  pages={53--73},
+ year={2010},
+  publisher={Springer}
+}
+
+@article{kumar2020,
+  title={Numerical investigation of the rheological behavior of a dense particle suspension in a biviscous matrix using a lubrication dynamics method},
+  author={Kumar, SS Prasanna and V{\'a}zquez-Quesada, A and Ellero, M},
+  journal={Journal of Non-Newtonian Fluid Mechanics},
+  volume={281},
+  pages={104312},
+  year={2020},
+  publisher={Elsevier}
+}
