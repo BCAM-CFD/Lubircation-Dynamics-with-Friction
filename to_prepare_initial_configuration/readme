@@ -1,0 +1,78 @@
+Steps to Follow
+
+1.  Compile Monte  Carlo: Open  a  console, change  to the  Montecarlo
+    directory, and type the following commands:
+   - 'make'
+   - 'make link'
+
+2. Modify Input  Variables: Edit the "input" file.  The only variables
+   you should modify are the following:
+   - 'dir': Directory to write the output.
+   - 'N_save_pos': Frequency  to save the configurations  of particles
+     in a data file.
+   - 'N_part': Number of particles.
+   - 'box': Size of  the simulation box. Note that in  the Monte Carlo
+     simulation, the walls are  not considered (only periodic boundary
+     conditions are). Since the  suspension simulation will have walls
+     and the  centers of the particles  cannot be closer to  the walls
+     than their radius R, the box  variable in the input for the Monte
+     Carlo simulation should be:
+     box = Lx Ly Lz-2*R
+     where  R is  the particle  radius. For  example, if  you want  to
+     simulate a suspension in a box  of 30x30x30 and the radius of the
+     particles  is R  = 1.0,  the input  for the  Monte Carlo  program
+     should be:
+     box = 30.0 30.0 28.0
+   - 'rcut': The diameter of the particles.
+
+3. Run the Monte Carlo Program: Type './montecarlo'.
+
+4. Analyze  Output: A directory  (as specified  in the input  file) is
+   created with files named 'pos00...dat', containing four columns:
+   1. Particle identity
+   2. x position
+   3. y position
+   4. z position
+
+   The  initial  configurations  are   not  valid  because  there  are
+   particles   overlapping.   After   some   time,   there   will   be
+   configurations without overlaps.
+
+5. To Check Overlaps: Navigate to the 'micro_analysis' directory and follow these steps:
+
+   1. Modify   the  'Box(1)',  'Box(2)',  and   'Box(3)'  inputs  in
+     'main.f90'. 'Box(1)' and 'Box(2)' should match those of the Monte
+      Carlo simulation. The  value of 'Box(3)' does not  matter as long
+      as it is  much greater than the corresponding value  in the Monte
+      Carlo simulation (to avoid periodic  boundary conditions in the z
+      direction, where the walls will be placed in the simulation).
+   2. change to the micro_analysis directory and compile by typing the
+      following commands:
+      - 'make'
+      - 'make link'      
+   3. Modify  the inputs  in the  'script.sh' file.  Specifically, the
+      inputs to change are:
+      - 'dir':  Path to  the  output directory  from  the Monte  Carlo
+        simulation.
+      - 'file_b' and 'file_e':  To analyze the desired  files, you may
+        need to adjust the number of zeros in these variables.
+      - Adjust the integers  in the "for" loop to  specify the desired
+        particle files created by the Monte Carlo program.
+   4. Run the script by typing 'ksh script.sh'.
+
+      The  minimum  distance between  particles  is  displayed in  the
+      shell.  If this  distance is  greater than  the diameter  of the
+      particles for  a given configuration, that  configuration can be
+      used as an initial configuration.
+
+6. Adjust Output File: You need a  file with only three columns (x, y,
+   z) instead  of four.  Additionally, translate the  entire system  by a
+   distance  R in  the  z  direction to  center  the  system between  the
+   walls. If the desired configuration  is in the 'pos00...dat' file, use
+   the following command:
+
+   'awk '{printf("%f %f %f \n", $2, $3, $4+R ) }' pos00...dat > pos.dat'
+
+   where R should  be replaced with the value of  the particle radius,
+   and 'pos.dat' will be the initial configuration file, to be read by
+   the lubrication dynamics program.
