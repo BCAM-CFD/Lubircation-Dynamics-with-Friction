@@ -6,7 +6,7 @@
  - Sagaya Savarimuthu Prasanna Kumar, from Marco Ellero's group.    
  - Adolfo Vazquez-Quesada, from the Department of Fundamental Physics
     at UNED, in Madrid, Spain.
- - Jose Esteban  Lopez Aguilar,  from the Departamento  de Ingenieria
+ - Jose Antonio Lopez Aguilar,  from the Departamento  de Ingenieria
     Quimica at UNAM, in Mexico DF, Mexico.
 
  Developers: Adolfo Vazquez-Quesada.
