@@ -1,0 +1,30 @@
+#files
+dir         = phi0_4
+N_save      = 1000
+N_save_pos  = 100000
+
+#montecarlo
+ N_steps_check = 30000000
+ N_freq_stat   = 100
+ amplitude     = 0.02
+ max_amp       = 0.5
+ min_amp       = 0.01
+ acceptance_ratio  = 0.5
+
+# neighbours_method = 3
+ fixed_seed        = .FALSE.
+ seed              = 10
+
+#physics
+ N_part    = 6258
+ dim       = 3
+ box       = 32.0 32.0 62.0
+ kT        = 0.1
+ rcut      = 2.0
+
+#initialization
+ initial  = 1
+ file_pos = pos.dat
+
+#others
+ Ntable = 100000
