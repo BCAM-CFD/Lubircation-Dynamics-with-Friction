@@ -1,2 +1,32 @@
 # Lubircation-Dynamics-with-Friction
-Code for simulating suspensions of spherical  particles in a fluid. The hydrodynamic interactions are modeled using lubrication  and friction forces, so the code is expected to be valid only for concentrated systems. Particle spins are also considered.
+ This code has been developed  in a collaboration between
+
+ - Marco Ellero, leader of the  CFD Modelling and Simulation group at
+    BCAM (Basque Center for Applied Mathematics) in Bilbao, Spain
+ - Sagaya Savarimuthu Prasanna Kumar, from Marco Ellero's group.    
+ - Adolfo Vazquez-Quesada, from the Department of Fundamental Physics
+    at UNED, in Madrid, Spain.
+ - Jose Esteban  Lopez Aguilar,  from the Departamento  de Ingenieria
+    Quimica at UNAM, in Mexico DF, Mexico.
+
+ Developers: Adolfo Vazquez-Quesada.
+ 	     Sagaya Savarimuthu Prasanna Kumar.
+             Jose Esteban Lopez-Aguilar.
+
+  Code  for  simulating  suspensions  of spherical  particles  in  a
+  fluid. The hydrodynamic interactions are modeled using lubrication
+  and friction forces, so the code  is expected to be valid only for
+  concentrated systems. Particle spins are also considered
+   References:
+    - José  Antonio Ruiz-Lopez,  Sagaya Savarimuthu  Prasanna Kumar,
+       Adolfo    Vazquez-Quesada,    Juan     de    Vicente,    Marco
+       Ellero. Tribological variable-friction  coefficient models for
+       the  simulation of  dense  suspensions  of rough  polydisperse
+       particles. Journal of Rheology, 67(2), 541-558. 2023
+    - Sagaya  Savarimuthu  Prasanna Kumar;  Adolfo  Vázquez-Quesada;
+       Marco Ellero.  A conservative lubrication dynamics  method for
+       the  simulation   of  dense  non-colloidal   suspensions  with
+       particle   spin.  Journal   of  Computational   Physics.  427,
+       pp. 110001, 2021.
+   
+**** Check the documentation for more information about the code. ****
