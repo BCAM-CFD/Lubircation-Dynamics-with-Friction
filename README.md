@@ -30,3 +30,5 @@
        pp. 110001, 2021.
    
 **** Check the documentation for more information about the code. ****
+
+![alt text](https://github.com/BCAM-CFD/Lubrication-Dynamics-with-Friction/blob/main/tribological_variable_friction.png)
