@@ -12,9 +12,11 @@
     Quimica at UNAM, in Mexico DF, Mexico.
 
  Developers: Adolfo Vazquez-Quesada.
- 	     Sagaya Savarimuthu Prasanna Kumar.
+ 	           Sagaya Savarimuthu Prasanna Kumar.
              Jose Esteban Lopez-Aguilar.
 
+  contact: a.vazquez-quesada@fisfun.uned.es, jantonio@ugr.es, mellero@bcamath.org
+  
   Code  for  simulating  suspensions  of spherical  particles  in  a
   fluid. The hydrodynamic interactions are modeled using lubrication
   and friction forces, so the code  is expected to be valid only for
