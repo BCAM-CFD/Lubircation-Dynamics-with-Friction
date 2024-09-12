@@ -1,4 +1,4 @@
-# Lubircation-Dynamics-with-Friction
+# Lubrication-Dynamics-with-Friction
  This code has been developed  in a collaboration between
 
  - Marco Ellero, leader of the  CFD Modelling and Simulation group at
