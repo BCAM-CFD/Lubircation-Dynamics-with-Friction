@@ -23,12 +23,13 @@
   concentrated systems. Particle spins are also considered
   
    References:
-    - José  Antonio Ruiz-Lopez,  Sagaya Savarimuthu  Prasanna Kumar,
+   
+  - José  Antonio Ruiz-Lopez,  Sagaya Savarimuthu  Prasanna Kumar,
        Adolfo    Vazquez-Quesada,    Juan     de    Vicente,    Marco
        Ellero. Tribological variable-friction  coefficient models for
        the  simulation of  dense  suspensions  of rough  polydisperse
        particles. Journal of Rheology, 67(2), 541-558. 2023
-    - Sagaya  Savarimuthu  Prasanna Kumar;  Adolfo  Vázquez-Quesada;
+  - Sagaya  Savarimuthu  Prasanna Kumar;  Adolfo  Vázquez-Quesada;
        Marco Ellero.  A conservative lubrication dynamics  method for
        the  simulation   of  dense  non-colloidal   suspensions  with
        particle   spin.  Journal   of  Computational   Physics.  427,
