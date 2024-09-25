@@ -18,8 +18,8 @@
   contact: a.vazquez-quesada@fisfun.uned.es, jantonio@ugr.es, mellero@bcamath.org
   
   Code  for  simulating  suspensions  of spherical  particles  in  a
-  fluid. The hydrodynamic interactions are modeled using lubrication
-  and variable Stribeck-curve dependent frictional forces. Contact friction depend on load, sliding velocity and interstitail liquid viscosity. Particle spins are also considered.
+  fluid. The hydrodynamic interactions are modeled using lubrication.
+  Variable Stribeck-curve dependent frictional forces are also introduced. Contact friction depend on load, sliding velocity and interstitail liquid viscosity. Particle spins are also considered.
   
    References:
    
